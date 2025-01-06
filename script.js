@@ -58,7 +58,7 @@ function startScanner() {
 
       // 2秒後に指定URLへ遷移
       setTimeout(() => {
-        window.location.href = "https://user0888361.github.io/home/menu.html";
+        window.location.href = "https://user0888361.github.io/menu/";
       }, 2000); // 2秒後にリダイレクト（必要に応じて調整）
 
       // フラグをリセット（再スキャン時にリセットする場合）
