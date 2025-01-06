@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>バーコード読み取り</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>職員ログイン</h2>
+    <hr>
+
+    <div class="form-section">
+      <button id="startScan">スキャン開始</button>
+      <div id="scanner" class="scanner"></div>
+      <p>スキャン結果: <span id="barcodeResult">-</span></p>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
